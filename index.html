@@ -7,18 +7,15 @@
         <link rel="stylesheet" href="css/master.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+        <script src="js/main.js"></script>
     </head>
     <body>
-
-        <section>
+        <div class="base">
             <div class="container">
-
                 <div class="brand">
                     <h1>DRAZERO BOILER CMS v0.0.1</h1>
                 </div>
-
                 <div class="news">
-
                     <div class="news__grid">
                         <div class="news__grid__item">
                             <img src="https://picsum.photos/200" alt="Lorem Picsum photo">
@@ -56,11 +53,23 @@
                             <p>xD</p>
                         </div>
                     </div>
-
+                    <button class="open-button" id="js--openForm">Open Form</button>
                 </div>
+            </div>
 
-            </div>    
-        </section>
-    
+            <!-- DEBUG -->
+            <div class="form" id="js--form">
+                <form class="form__container">
+                    <h1>Login</h1>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>  
+                    <button type="submit" class="btn">Login</button>
+                    <button type="button" class="btn cancel" id="js--closeForm">Close</button>
+                </form>
+            </div>
+
+        </div>
     </body>
 </html>
