@@ -1,0 +1,14 @@
+// MASTER 
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+// CONTAINER
+.container {
+    width: 100%;
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
