@@ -61,8 +61,8 @@ html, body {
 section {
   width: 100%;
   height: 100%;
-  background: #22c1c3;
-  background: linear-gradient(45deg, #22c1c3 0%, #fdbb2d 100%);
+  background: #27ff00;
+  background: linear-gradient(45deg, #27ff00 0%, #8400d0 100%);
 }
 
 .container {
